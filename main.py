@@ -1,6 +1,11 @@
 #  1. Дано предложение. Удалить все повторяющиеся слова.
 #  ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 # someString = input('Введите предложение: ').strip()
+# for i in someString:
+#     if i.isspace():
+#         continue
+#     elif not i.isalpha():
+#         someString = someString.replace(i, '')
 # someString = someString.split()
 # removingString = []
 # for i in someString:
